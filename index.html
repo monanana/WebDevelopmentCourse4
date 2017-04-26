@@ -1,0 +1,106 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="דף נחיתה, פרסומת, טכנולוגיות למידה, טלמ" />
+    <meta name="keywords" content="טכנולוגיות למידה, טלמ" />
+    <meta name="author" content="מורן נהור" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="head">
+            <h1>
+                <a href="http://www.hit.ac.il/"><img src="images/1280px-HitHolonLogo.svg.png" /></a>
+                <br /><strong> B.A טכנולוגיות למידה</strong>
+            </h1>
+            <h2>
+                <br />בואו ללמוד מקצוע טכנולוגי <br />שמשלב בתוכו את כל העולמות
+                <br />
+                <a href="http://www.hit.ac.il/telem/B.A"> <img src="images/paint-palette-and-brush_318-44073.jpg" /></a>
+            </h2>
+        </div>
+        <div id="theText">
+
+            <p>
+                עיצוב, טכנולוגיה, מולטימיה, פסיכולוגיה, ניו מדיה, UX/UI, בניית אתרים ולומדות...<br />
+
+                <span calss="bold">יש תואר שמשלב את כל התחומים האלה!</span>
+                <br />
+
+            </p>
+            <h2>
+                מעוניינים במידע נוסף?
+            </h2>
+            <p>
+                הקליקו
+                <span calss="bold"> <a href="http://www.hit.ac.il/telem/B.A" target="_blank">כאן</a>  </span>  <br />
+                או השאירו פרטים ונחזור אליכם! :)
+                <br />
+            </p>
+
+
+
+            <h3>השארת פרטי התקשרות</h3>
+            <form>
+                <input type="hidden" id="myEmail" name="name" value="pirpamn@gmail.com">
+
+
+                <label for="FirstName">
+                    שם פרטי:
+                    <input type="text" id="FirstName" placeholder="הזן את שמך הפרטי" />
+                </label>
+
+                <label for="LastName">
+                    שם משפחה:
+                    <input type="text" id="LastName" placeholder="הזן את שם משפחתך" />
+                </label>
+                <label for="myPhone">
+                    מספר פלאפון:
+                    <input type="text" id="myPhone" placeholder="הקלד את מספר הפלאפון שלך" />
+                </label>
+
+                <label for="myMail">
+                    הזן כתובת מייל
+                    <input type="text" id="myPhone" placeholder="הקלד את כתובת המייל שלך" />
+                </label>
+
+                <label for="mySelect">
+                    בחר סוג פניה
+                    <select id="mySelect">
+                        <option value="1">בירורים נוספים על התואר</option>
+                        <option value="2" selected>בקשת הרשמה לתואר</option>
+                    </select>
+                </label>
+
+
+                <label for="myMS">
+                    תוכן הפניה:
+                    <textarea id="myMS"></textarea>
+                </label>
+
+
+                <label for="cb1">
+                    <input type="checkbox" id="cb1" checked /> אני מוכן/ה לקבל דואר פירסומי
+                </label>
+
+
+                <input type="submit" id="Send" value="שלח">
+
+                <div id="feedback"></div>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
